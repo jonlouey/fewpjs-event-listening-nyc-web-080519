@@ -5,3 +5,18 @@ function addingEventListener() {
     });
 }
 
+addingEventListener()
+
+function addingEventListenerFirstBox() {
+  const box = document.getElementById('first_box');
+  box.addEventListener('click', function(event) {
+    alert('I am the first box!')
+    console.log("test");
+  });
+}
+
+addingEventListenerFirstBox()
+
+
+
+
